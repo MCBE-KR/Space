@@ -40,18 +40,18 @@ for (let i = 0; i < 8; ++i) {
 When you try to tilt `Space` with given `Vector3` or `Space`,  `Space` (which is method `tiltByView()`) class doesn't follow the basis orientation of normal Minecraft. (like `^ ^ ^`)
 
 ### Minecraft Axis Orientation
-> +x : right, -x : left
-<br>
-> +y : up, -y : down
-<br>
-> +z : behind, -z : front
++x : right, -x : left
+
++y : up, -y : down
+
++z : behind, -z : front
 
 ### Space Module Axis Orientation
-> +x : front, -x : behind
-<br>
-> +y : up, -y : down
-<br>
-> +z : right, -z : left
++x : front, -x : behind
+
++y : up, -y : down
+
++z : right, -z : left
 
 ### Example of tilting
 ```typescript
